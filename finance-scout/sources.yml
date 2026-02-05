@@ -1,0 +1,16 @@
+sources:
+  - name: "Kitco"
+    kind: "rss"
+    url: "https://www.kitco.com/rss/news"
+    refresh_minutes: 5
+    weight: 1.2
+  - name: "Investing"
+    kind: "rss"
+    url: "https://www.investing.com/rss/news_25.rss"
+    refresh_minutes: 5
+    weight: 1.0
+  - name: "WorldBank"
+    kind: "rss"
+    url: "https://www.worldbank.org/en/news/all.xml"
+    refresh_minutes: 30
+    weight: 0.9
